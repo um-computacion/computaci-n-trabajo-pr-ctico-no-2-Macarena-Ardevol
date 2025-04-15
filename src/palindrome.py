@@ -4,6 +4,7 @@ def is_palindrome(text):
 
 def comparar_caracteres(texto_limpio):
     return texto_limpio == texto_limpio[::-1]
+
 if __name__ == "_main_":
     try:
         while True:
